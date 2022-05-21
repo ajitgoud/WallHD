@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/activityBackgroundColor"
+    tools:context=".activity.ProfileActivity">
+
+    <include
+        android:id="@+id/toolbarInclude"
+        layout="@layout/layout_appbar_toolbar" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileActivityUserImageView"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/toolbarInclude"
+        android:layout_centerInParent="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/profileActivityUserNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileActivityUserImageView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColor"
+        android:textSize="24sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/profileActivityUserEmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileActivityUserNameTextView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/profileActivityUserSinceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileActivityUserEmailTextView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/profileActivityProviderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileActivityUserSinceTextView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+</RelativeLayout>

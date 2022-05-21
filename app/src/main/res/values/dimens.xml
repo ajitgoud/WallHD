@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="distance">32dp</dimen>
+    <dimen name="offset">56dp</dimen>
+
+</resources>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1092311576075",
+    "firebase_url": "https://wallhd-b2e6c.firebaseio.com",
+    "project_id": "wallhd-b2e6c",
+    "storage_bucket": "wallhd-b2e6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092311576075:android:9691bd9c84dbacbd",
+        "android_client_info": {
+          "package_name": "com.android.blackgoku.wallhd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092311576075-ol2a5m1fu0tov4e8d458loui3298a4dt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.blackgoku.wallhd",
+            "certificate_hash": "04265fb349578fb7f7f34a04421f260ff81f7e9e"
+          }
+        },
+        {
+          "client_id": "1092311576075-4gmhndbvveq01mu300vofv8jvngvddah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.blackgoku.wallhd",
+            "certificate_hash": "1f55c265df5f26739ac6f235862630f545afe900"
+          }
+        },
+        {
+          "client_id": "1092311576075-l60bu4i65otkis7gfg9kcofee84d9qii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs-VdXbVM8jtnVEqGb_tsffftlll8AQnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092311576075-l60bu4i65otkis7gfg9kcofee84d9qii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

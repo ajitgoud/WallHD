@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OnBoardingActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:tint="@color/colorTint"
+        android:src="@drawable/on_boarding_background"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/onBoardingViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/dotIndicatorLinearLayout" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/navigateBackMaterialButton"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/colorTint"
+            app:cornerRadius="24dp"
+            app:icon="@drawable/ic_navigate_before"
+            android:visibility="gone"/>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/navigateNextMaterialButton"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/colorTint"
+            app:cornerRadius="24dp"
+            app:icon="@drawable/ic_navigate_next" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/skipMaterialButton"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@android:color/transparent"
+            android:text="@string/skip"
+            tools:ignore="RelativeOverlap" />
+
+        <LinearLayout
+            android:id="@+id/dotIndicatorLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

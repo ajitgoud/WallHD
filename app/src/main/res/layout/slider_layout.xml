@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/onBoardingImageView"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:tint="@color/colorPrimary"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/ic_send_black_24dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/onBoardingTextHeader"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onBoardingImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/enter_desc"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/onBoardingTextDescription"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onBoardingTextHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:gravity="center"
+        android:text="@string/enter_desc"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+</RelativeLayout>
